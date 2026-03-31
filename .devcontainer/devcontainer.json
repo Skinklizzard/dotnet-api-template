@@ -3,7 +3,7 @@
   "dockerFile": "Dockerfile",
   "workspaceFolder": "/workspace",
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
-  "postCreateCommand": "dotnet restore src/Api/__PROJECT_NAME__.csproj",
+  "postCreateCommand": "dotnet restore src/__API_NAME__/__API_NAME__.csproj",
   "customizations": {
     "vscode": {
       "extensions": [

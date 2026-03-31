@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/__PROJECT_SLUG__.sln",
+                "${workspaceFolder}/__PROJECT_NAME__.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/__PROJECT_SLUG__.sln",
+                "${workspaceFolder}/__PROJECT_NAME__.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/__PROJECT_SLUG__.sln"
+                "${workspaceFolder}/__PROJECT_NAME__.sln"
             ],
             "problemMatcher": "$msCompile"
         }

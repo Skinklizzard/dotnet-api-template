@@ -1,2 +1,2 @@
-src/Api/bin/*
-src/Api/obj/*
+src/*/bin/*
+src/*/obj/*
