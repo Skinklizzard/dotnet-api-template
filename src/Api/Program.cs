@@ -1,4 +1,9 @@
 using Microsoft.EntityFrameworkCore;
+using __NAMESPACE__.Data;
+using __NAMESPACE__.Controllers;
+
+namespace __NAMESPACE__
+{
 
 
 public class Program
@@ -35,4 +40,5 @@ public class Program
         app.MapControllers();
         app.Run();
     }
+}
 }

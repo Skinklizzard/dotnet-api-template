@@ -1,9 +1,9 @@
 {
-  "name": "ASP.NET Core API (.NET 10)",
+  "name": "__PROJECT_NAME__ (.NET 10)",
   "dockerFile": "Dockerfile",
   "workspaceFolder": "/workspace",
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
-  "postCreateCommand": "dotnet restore src/Api/Api.csproj",
+  "postCreateCommand": "dotnet restore src/Api/__PROJECT_NAME__.csproj",
   "customizations": {
     "vscode": {
       "extensions": [
